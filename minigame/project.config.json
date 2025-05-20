@@ -22,7 +22,9 @@
     "useApiHook": false,
     "disableUseStrict": false,
     "babelSetting": {
-      "ignore": ["webgl.wasm.framework.unityweb.js"],
+      "ignore": [
+        "webgl.wasm.framework.unityweb.js"
+      ],
       "disablePlugins": [],
       "outputPath": ""
     },
@@ -34,8 +36,8 @@
   },
   "compileType": "game",
   "libVersion": "3.5.1",
-  "appid": "wx1e2ddea306d5c5a0",
-  "projectname": "webgl",
+  "appid": "wxf2480d730ec72de8",
+  "projectname": "StickGuys",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "packOptions": {

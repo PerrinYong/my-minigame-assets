@@ -12,7 +12,7 @@ const managerConfig = {
     DATA_FILE_MD5: 'bbf9c96f87a7e0f6',
     CODE_FILE_MD5: 'fbe5cb86828cbf3b',
     GAME_NAME: 'webgl',
-    APPID: 'wx1e2ddea306d5c5a0',
+    APPID: 'wxf2480d730ec72de8',
     DATA_FILE_SIZE: '56998905',
     OPT_DATA_FILE_SIZE: '$OPT_DATA_FILE_SIZE',
     DATA_CDN: 'https://perrinyong.github.io/my-minigame-assets/webgl/',
