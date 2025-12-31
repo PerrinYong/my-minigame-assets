@@ -9,13 +9,13 @@ import checkVersion from './check-version';
 import { launchEventType, scaleMode } from './plugin-config';
 import { preloadWxCommonFont } from './unity-sdk/font/index';
 const managerConfig = {
-    DATA_FILE_MD5: '1e7a48aef41b7fad',
-    CODE_FILE_MD5: 'fbe5cb86828cbf3b',
+    DATA_FILE_MD5: '47ea1a75a1de0f83',
+    CODE_FILE_MD5: 'e26fb6e4cba1aa15',
     GAME_NAME: 'webgl',
-    APPID: 'wxf2480d730ec72de8',
-    DATA_FILE_SIZE: '57001827',
+    APPID: 'wxf881c14d904294e5',
+    DATA_FILE_SIZE: '56861016',
     OPT_DATA_FILE_SIZE: '$OPT_DATA_FILE_SIZE',
-    DATA_CDN: 'https://perrinyong.github.io/my-minigame-assets/webgl/',
+    DATA_CDN: 'https://perrinyong.github.io/my-minigame-assets/webgl',
     // 资源包是否作为小游戏分包加载
     loadDataPackageFromSubpackage: false,
     // 资源包放小游戏分包加载时，是否br压缩
@@ -27,7 +27,11 @@ const managerConfig = {
         ,
     ],
     contextConfig: {
-        contextType: 1, // 1: webgl1  2: webgl2
+        contextType: 1,
+        contextExt: {
+            enableGLX: false,
+            enableMetal: false,
+        }
     },
     PROFILER_UPLOAD_URL: '',
 };

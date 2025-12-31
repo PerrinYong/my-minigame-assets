@@ -18,7 +18,7 @@ const unityNamespace = {
     unityVersion: '2022.3.55f1c1',
     // Color Space: Gamma、Linear、Uninitialized(未初始化的颜色空间)
     unityColorSpace: 'Gamma',
-    convertPluginVersion: '202505120809',
+    convertPluginVersion: '202512040727',
     // 拼在StreamingAssets前面的path，DATA_CDN + streamingUrlPrefixPath + StreamingAssets
     streamingUrlPrefixPath: '',
     // DATA_CDN + dataFileSubPrefix + datafilename
@@ -52,11 +52,13 @@ const unityNamespace = {
     // Boot config配置，包含例如wait-for-native-debugger、player-connection-ip等信息
     bootConfig: 'player-connection-ip=192.168.1.43',
     // 是否以Development Build构建
-    isDevelopmentBuild: true,
+    isDevelopmentBuild: false,
     // 是否以Profiling Build导出
     isProfilingBuild: false,
     // 预留的堆内存
     unityHeapReservedMemory: 256,
+    // 是否向Perfstream上报数据
+    sendData2PerfStream: false,
 };
 // 最佳实践检测配置
 unityNamespace.monitorConfig = {
