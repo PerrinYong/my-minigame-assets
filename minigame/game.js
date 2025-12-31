@@ -9,11 +9,11 @@ import checkVersion from './check-version';
 import { launchEventType, scaleMode } from './plugin-config';
 import { preloadWxCommonFont } from './unity-sdk/font/index';
 const managerConfig = {
-    DATA_FILE_MD5: 'bbf9c96f87a7e0f6',
+    DATA_FILE_MD5: '1e7a48aef41b7fad',
     CODE_FILE_MD5: 'fbe5cb86828cbf3b',
     GAME_NAME: 'webgl',
     APPID: 'wxf2480d730ec72de8',
-    DATA_FILE_SIZE: '56998905',
+    DATA_FILE_SIZE: '57001827',
     OPT_DATA_FILE_SIZE: '$OPT_DATA_FILE_SIZE',
     DATA_CDN: 'https://perrinyong.github.io/my-minigame-assets/webgl/',
     // 资源包是否作为小游戏分包加载
