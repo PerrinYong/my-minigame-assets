@@ -9,7 +9,7 @@ import checkVersion from './check-version';
 import { launchEventType, scaleMode } from './plugin-config';
 import { preloadWxCommonFont } from './unity-sdk/font/index';
 const managerConfig = {
-    DATA_FILE_MD5: 'e50a6b215346a628',
+    DATA_FILE_MD5: 'cd213671ad108969',
     CODE_FILE_MD5: 'eebd49b92c1181fb',
     GAME_NAME: 'webgl',
     APPID: 'wxf881c14d904294e5',
